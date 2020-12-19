@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhotoActivity">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_gravity="center|top" />
+
+    <Button
+        android:id="@+id/btnDetectObject"
+        android:layout_width="150dp"
+
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:textSize="20sp"
+        android:layout_gravity="bottom|center"
+        android:text="Detect Object"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        android:visibility="gone" />
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/secondLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_gravity="center|top"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="2">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewResult"-->
+<!--            android:layout_width="75dp"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:padding="2dp" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnToggleCamera"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_gravity="bottom|center"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:text="Toggle Camera"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewResult"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:fadeScrollbars="false"-->
+<!--        android:gravity="center"-->
+<!--        android:maxLines="15"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:textColor="@android:color/black" />-->
+</LinearLayout>

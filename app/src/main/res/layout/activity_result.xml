@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svDescription"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ResultActivity">
+
+
+        <ImageView
+            android:id="@+id/ivCrop"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text=" RESULT :"
+            android:textColor="#8cba51"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCropName"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:textColor="#8cba51"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="INFORMATION:" />
+
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle=""
+            android:textSize="20sp"
+            android:text="" />
+
+
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:textColor="#8cba51"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="LOCATION" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:background="@drawable/custom_button"
+            android:textColor="#ffff"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Share" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".ResultActivity">-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ivCrop"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="208dp"-->
+<!--        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvCropName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView" />-->
+
+<!--    <ScrollView-->
+<!--        android:id="@+id/svDescription"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvDescription"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="" />-->
+
+<!--    </ScrollView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvLocation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnShare"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Share" />-->
+
+
+<!--</LinearLayout>-->
